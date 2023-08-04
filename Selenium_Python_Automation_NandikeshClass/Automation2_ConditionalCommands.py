@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-service = Service(executable_path="D:\ChromeDriver\chromedriver.exe")
+service = Service(executable_path=r"C:\Users\VEN-KulalSR\PycharmProjects\pythonProject1\Drivers\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 driver.get("https://opensource-demo.orangehrmlive.com/")
@@ -28,9 +28,6 @@ print("current URL of the page", driver.current_url)  #Returns the URL of the pa
 print(driver.page_source) #HTML code for the page
 time.sleep(200)
 
-#find the example for isSelected() method
-round_trip = driver.find_element(By.CSS_SELECTOR, 'input[value="roundtrip"]');
-print(round_trip.is_selected())
 
 '''
 driver=webdriver.Firefox(executable_path="D:\\FirefoxDriver\\geckodriver.exe")

@@ -3,8 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 
-
-service = Service(executable_path="D:\ChromeDriver\chromedriver.exe")
+service = Service(executable_path=r"C:\Users\VEN-KulalSR\PycharmProjects\pythonProject1\Drivers\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 driver.get("https://newtours.demoaut.com/")
 time.sleep(20)
