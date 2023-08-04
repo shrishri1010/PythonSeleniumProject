@@ -1,0 +1,26 @@
+1642264159017	geckodriver	INFO	Listening on 127.0.0.1:54355
+1642264162086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54356" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofiledKhuJw"
+1642264169658	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofiledKhuJw\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:54356/devtools/browser/67212607-0b8a-4fe5-9553-97b72253d2f5
+1642264196648	Marionette	INFO	Listening on port 54361
+1642264196778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642264236430	Marionette	INFO	Stopped listening on port 54361
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642264257252	geckodriver	INFO	Listening on 127.0.0.1:54465
+1642264260311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54466" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileBq4NWy"
+1642264261902	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileBq4NWy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54466/devtools/browser/759b3205-e76f-441f-8aae-3f488d1ddacf
+1642264274989	Marionette	INFO	Listening on port 54472
+1642264275135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642264278904	Marionette	INFO	Stopped listening on port 54472
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 687))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 687: Error: Connection closed before committing the transaction.
+[Parent 17340, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
