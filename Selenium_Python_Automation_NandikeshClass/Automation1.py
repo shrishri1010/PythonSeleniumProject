@@ -24,6 +24,7 @@ driver.maximize_window()
 #title,current_url,close,assert
 title=driver.title
 print('title is  -',title)
+print('title is  -',title)
 
 #validating the title - using assert -- validating actual value with expected value.
 assert "Facebook - log in or sign up" in title
