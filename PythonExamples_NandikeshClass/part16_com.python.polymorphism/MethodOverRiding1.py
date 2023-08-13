@@ -9,6 +9,7 @@ class Parent:
 
 class Child(Parent):
     name="david singh"
+
 obj1=Child()
 print(obj1.name)
 

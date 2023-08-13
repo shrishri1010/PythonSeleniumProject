@@ -4,6 +4,6 @@
 #this will return part of the string starting from index start to index end -1
 
 str = "welcome"
-print(str[1:3])     #index start to index end -1 (3-1=2)
+print(str[1:4])     #index start to index end -1 (3-1=2)
 print(str[:6])
 print(str[4:])

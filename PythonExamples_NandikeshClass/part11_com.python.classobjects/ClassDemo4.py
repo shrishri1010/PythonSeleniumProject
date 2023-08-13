@@ -1,5 +1,4 @@
 #Local variables, Class variables and Global Variables
-
 i,j=15,25  #Global Variables
 
 class Myclass:

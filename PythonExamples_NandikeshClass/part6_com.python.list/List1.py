@@ -1,5 +1,11 @@
-#Creating Lists
+'''
+List
+1. We can modify the list. so we are calling list is Mutable(Alter/Modify).
+2. List is having sequence of mutable of values: ex - ['test', 'hello']
+3.List contains the values and it should be inside the square bracket.
+'''
 
+#Creating Lists
 list1=list()  #create an empty list
 print(list1)
 

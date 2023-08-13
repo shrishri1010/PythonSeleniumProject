@@ -11,10 +11,12 @@ class childB(Parent):
 print('parent class properties')
 p=Parent()
 p.m1()
+
 print('child A class properties')
 c=childA()
 c.m1()
 c.m2()
+
 print('child B class properties')
 sc=childB()
 sc.m1()

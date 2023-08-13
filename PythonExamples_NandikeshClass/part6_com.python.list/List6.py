@@ -30,7 +30,7 @@ list1.reverse()  # reverse
 print(list1)
 
 #sort function
-list1.sort()  # reverse
+list1.sort()  # sorting the list in sequence
 print(list1)
 
 

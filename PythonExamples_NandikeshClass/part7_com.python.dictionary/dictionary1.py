@@ -11,18 +11,19 @@ Notes --
 
 #Declaring single values
 a={'Name':'Nandikesh'}
+print(a)
 
 #declaring multiple values
 x={'Name':'Nandikesh', 'email':'test@gmail.com'}
 print(len(x))
 print(x)
-print("*********************cppppp*****")
 print(type(a))
 
+print("*********************cppppp*****")
 #Retrieving the elements from the dictionary
 print(x['Name'])
 
-#Modify/Chane the elements into the dictionary
+#Modify/Change the elements into the dictionary
 x['Name']='Hegde'
 print(x)
 

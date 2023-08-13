@@ -32,7 +32,7 @@ stop = 20
 step = 3
 print(list(range(start, stop, step)))
 
-print("************************************************************")
+print("************************** step1 **********************************")
 a=[2,7,4,3,8,11]
 #print(len(a))
 for i in range(0,len(a),2):
@@ -49,9 +49,7 @@ print("***********************shrikanth2*************************************")
 for m in range(1,10,2):
     print(m)
 
-
 #a = [10,20,30,40]
 #//print(len(a))
-
 result1 = range(3)
 print(list(result1))

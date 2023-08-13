@@ -1,11 +1,10 @@
-import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 import openpyxl
 
-#install openPyExcel  --->> File -- settings --- python inperpreter  ----- install openPyExcel package
-#Reading data from Excel
-path = "D:\data1.xlsx"
+#Data driven testing
+#install openPyExcel  --->>
+# File -- settings --- python interpreter  ----- install openPyExcel package
+# Reading data from Excel
+path = r"C:\Users\VEN-KulalSR\Desktop\data1.xlsx"
 #load the workbook
 workbook=openpyxl.load_workbook(path)
 

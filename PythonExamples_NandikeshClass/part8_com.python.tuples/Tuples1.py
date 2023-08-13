@@ -1,12 +1,13 @@
 '''
-Tuples ---->>> 1. Having sequence of Immutable(cannot modify) values
-2.holds values with different data types and decalring within parenthesis ()
+Tuples
+1. Having sequence of Immutable(Cannot modify) values
+2.Holds values with different data types and decalring within parenthesis ()
 '''
 
 '''
 Tuple -
-1.we can't add the values
-2.We can't change the values
+1.we can't add the values.
+2.We can't change the values.
 3.We can't delete the values.
 '''
 
